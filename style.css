@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+  
+    position: fixed;
+    top: 0;
+}
+.navbar .logo{
+    font-size: 1.5em;
+    font-weight: 750;
+    letter-spacing: 2px;
+    margin-left: 0em;
+    font-family:Monotype Corsiva;
+    
+}
+.navbar ul.nav{
+    margin-right: 8%;
+}
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+    background: rgb(241, 80, 107);
+    color:white;
+}
+.navbar ul.nav li a{
+    color:white;
+    font-size: 1.3em;
+    font-weight: 700;
+    
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+    color: #000;
+}
+
+.header img{
+    float: left;
+    margin-left: 10%;
+    width: 50px;
+    height:50px ;
+    border-radius: 70%;}
+   
+
+    #carouselExampleIndicators{
+        padding-bottom: 250px;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+    .carousel-item{
+        height: 100vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover ;
+        background-size: cover;
+    }
+    .carousel-caption{
+            top: 10px;
+        margin-left: 8px;
+    }
+    .carousel-caption h5{
+        font-size: 45px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 12%;
+        font-family: merienda;
+        font-style: bold;
+        font-weight:800 ;
+        color: white;
+        
+    }
+    .carousel-caption p{
+        width: 80%;
+        margin: auto;
+        font-size: 45px;
+        font-style:bold;
+        margin-top: 25px;
+        font-weight: 500;
+        line-height: 1.9;
+        font-family: merienda;
+    
+    }
+    
+    
+    
+   
+footer{
+    padding:10px;
+    font-size:17px ;
+    font-weight: bold;
+    text-align: center;
+    background:rgb(19, 18, 18);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+p{
+    color:rgb(3, 49, 3);
+}
